@@ -1,0 +1,33 @@
+\begin{thebibliography}{1}
+
+\bibitem{Radial}
+D.~Broomhead and D.~Lowe.
+\newblock Radial basis functions, multi-variable functional interpolation and adaptive networks.
+\newblock {\em ROYAL SIGNALS AND RADAR ESTABLISHMENT MALVERN (UNITED KINGDOM)}, RSRE-MEMO-4148, 03 1988.
+
+\bibitem{Mountain}
+A.~Melnikov, A.~Makmal, and H.~Briegel.
+\newblock Projective simulation applied to the grid-world and the mountain-car problem.
+\newblock 3, 05 2014.
+
+\bibitem{Normalization}
+I.~Pires, F.~Hussain, N.~Garcia, P.~Lameski, and E.~Zdravevski.
+\newblock Homogeneous data normalization and deep learning: A case study in human activity classification.
+\newblock {\em Future Internet}, 12, 11 2020.
+
+\bibitem{Feature_Construction}
+N.~R. Sturtevant and A.~M. White.
+\newblock Feature construction for reinforcement learning in hearts.
+\newblock In H.~J. van~den Herik, P.~Ciancarini, and H.~H. L. M.~J. Donkers, editors, {\em Computers and Games}, pages 122--134, Berlin, Heidelberg, 2007. Springer Berlin Heidelberg.
+
+\bibitem{Sutton1998}
+R.~S. Sutton and A.~G. Barto.
+\newblock {\em Reinforcement Learning: An Introduction}.
+\newblock The MIT Press, second edition, 2018.
+
+\bibitem{QLearning}
+C.~Watkins and P.~Dayan.
+\newblock Technical note: Q-learning.
+\newblock {\em Machine Learning}, 8:279--292, 05 1992.
+
+\end{thebibliography}

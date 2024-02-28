@@ -1,0 +1,47 @@
+### I have configured latex with the following tutorial:
+
+1) Download and install TEX by following (https://www.tug.org/texlive/quickinstall.html): 
+
+TeX Live - Quick install for Unix
+If you don't want to bother reading the full install documentation and just want to install everything in TeX Live, on a Unix-like system, a minimal recipe follows.
+
+For macOS (and MacOSX), we recommend installing MacTeX, which contains all of TeX Live (and a few Mac-specific additions).
+Cygwin users can follow the instructions for Unix-like systems, but make sure you have the Cygwin prerequisites before beginning the installation.
+Other Windows users: please consult the TeX Live on Windows page instead.
+For more details on the commands given here, just keep scrolling down this page.
+
+tl;dr: Unix(ish)
+Non-interactive default installation on anything but Windows:
+
+$$$$$$$$$$$$$$$$$$$$$$$$$
+cd /tmp # working directory of your choice
+wget https://mirror.ctan.org/systems/texlive/tlnet/install-tl-unx.tar.gz # or curl instead of wget
+zcat < install-tl-unx.tar.gz | tar xf -
+cd install-tl-*
+perl ./install-tl --no-interaction # as root or with writable destination
+Finally, prepend /usr/local/texlive/YYYY/bin/PLATFORM to your PATH,
+e.g., /usr/local/texlive/2023/bin/x86_64-linux
+$$$$$$$$$$$$$$$$$$$$$$$$$
+
+I have added to PATH by eidting the file ~/.bashrc:
+export PATH=$PATH:/usr/local/texlive/2023/bin/x86_64-linux
+
+
+
+2) Installed the following plugin in the VS code:
+
+https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop
+
+
+
+
+3) Created a new folder for the project with a template file of extension .tex. This is your article.
+
+
+4) Compiler asked me to include the file simpleConference.sty in the project folder. 
+
+
+Enjoy typing in VS code!!
+
+
+

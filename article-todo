@@ -1,0 +1,15 @@
+* Discard from convergent trained models, the ones having trajectory max > 5000 (it should converge on every simulation).
+Also change the criteria in the article, so a convergent model should have mean < 300 and no simulation that is not converging.
+
+Results to add to article:
+
+    * Percentage of models trained which are convergent (also share absolute numbers) for each feature type; - OK!
+    * Share the result we had with a model trained having polynomial dimension = 3. This is good because the size of weights is small and good results can be taken; - OK!
+    * Create an histogram from convergent models based on the polynomial dimension and another for proto points;
+    * Create an histogram from convergent models based on the epsilons (exploration x exploitation);
+    
+    * Expose the models trained that has provided the smallest delta (max - min) for each feature type. Compare them;
+    
+    
+    
+
